@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form sign up</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>sign up</h1>
+    <form method="post" style="margin-left: 40%;margin-top: 20px;" target="_blank">
+        <div>
+            <label for="">uesername</label>
+            <br>
+            <!-- this input to read  -->
+            <input type="text" placeholder="add your name" name="user" value="">
+
+        </div>
+        <br>
+        <div>
+            <label for="">subject</label>
+            <br>
+            <!-- this inputfoucs realy  -->
+            <input type="text" autofocus placeholder="add your subject" name="user">
+
+        </div>
+        <br>
+        <div>
+            <label for="">password</label>
+            <br>
+            <!-- this input write password unlook -->
+            <input type="password" required placeholder="add your password" name="pass" maxlength="10" minlength="6">
+
+        </div>
+
+        <br>
+        <div>
+            <label for="">email</label>
+            <br>
+            <!-- this input is not can edit to text -->
+            <input type="email" required placeholder="add your email" name="email" value="abar@as.as" disabled>
+
+        </div>
+        <br>
+        <div>
+            <label for="">number</label>
+            <br>
+            <!-- this input you can choese your birth -->
+            <input type="number" name="birth" placeholder="add you birth" min="1990" max="2023">
+
+        </div>
+        <br>
+        <div><input type="submit" value="save">
+            <input type="reset" value="reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
